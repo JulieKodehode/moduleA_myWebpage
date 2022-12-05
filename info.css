@@ -1,0 +1,54 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/* General */
+body {
+  background-color: #beddf0;
+}
+
+/* Classes */
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+/* Typography */
+h1 {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Silkscreen", cursive;
+}
+
+h2 {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+p {
+  margin: 5px;
+  padding: 5px;
+}
+
+/* Anchors */
+a {
+  color: #5084d9;
+}
+
+a:hover {
+  color: #19396e;
+}
+
+a:active {
+  color: #d13828;
+}
